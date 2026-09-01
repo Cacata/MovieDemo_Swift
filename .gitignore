@@ -1,0 +1,20 @@
+# Local credentials
+Configuration/Secrets.xcconfig
+**/Secrets.xcconfig
+*.xcconfig.local
+.env
+.env.*
+!.env.example
+
+# Xcode user and build state
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager local state
+.build/
+.swiftpm/
+
+# Local operating-system files
+.DS_Store
